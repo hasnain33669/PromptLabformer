@@ -16,12 +16,6 @@ PromptLapFormer is a prompt-guided molecular graph learning framework for molecu
 - NumPy
 - Pandas
 
-### Create Conda Environment
-
-```bash
-conda create -n promptlapformer python=3.9
-conda activate promptlapformer
-
 ### Model Configuration
 
 model = EnhancedPromptLapFormer(
@@ -55,3 +49,9 @@ PromptLapFormer/
 └── tests/
     ├── test_model.py
     └── test_data_loader.py
+
+### Create Conda Environment
+
+```bash
+conda create -n promptlapformer python=3.9
+conda activate promptlapformer

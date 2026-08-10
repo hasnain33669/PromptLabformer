@@ -30,7 +30,17 @@ model = EnhancedPromptLapFormer(
     descriptor_dim=11
 )
 
-##### Structure
+
+##### Create Conda Environment
+
+```bash
+conda create -n promptlapformer python=3.9
+conda activate promptlapformer
+
+
+Structure
+
+
 PromptLapFormer/
 ├── README.md
 ├── configs/
@@ -48,9 +58,3 @@ PromptLapFormer/
 └── tests/
     ├── test_model.py
     └── test_data_loader.py
-
-###### Create Conda Environment
-
-```bash
-conda create -n promptlapformer python=3.9
-conda activate promptlapformer

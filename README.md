@@ -1,4 +1,4 @@
- # PromptLapFormer
+# PromptLapFormer
 
 PromptLapFormer is a prompt-guided molecular graph learning framework for molecular property prediction. The framework combines molecular graph representations with semantic information from a pretrained molecular language model, adaptive weighted Laplacian graph refinement, edge-aware Graph Transformer encoding, and cross-modal feature fusion.
 
@@ -23,8 +23,7 @@ conda create -n promptlapformer python=3.9
 conda activate promptlapformer
 
 
-### Model Configuration
-
+Model Configuration
 model = EnhancedPromptLapFormer(
     node_dim=145,
     hidden_dim=256,
@@ -36,8 +35,7 @@ model = EnhancedPromptLapFormer(
     edge_dim=12,
     descriptor_dim=11
 )
-
-### Structure
+Structure
 PromptLapFormer/
 ├── README.md
 ├── configs/
